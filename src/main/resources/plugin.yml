@@ -1,0 +1,6 @@
+name: AreaShop-Hikari
+version: '${version}'
+main: Main
+author: SKBotNL
+api-version: '${apiVersion}'
+depend: [ AreaShop, QuickShop-Hikari ]
