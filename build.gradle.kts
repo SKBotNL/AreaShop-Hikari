@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "nl.skbotnl.areashop-hikari"
-version = "1.1.2"
+version = "1.1.3"
 
 val apiVersion = "1.19"
 
@@ -38,11 +38,11 @@ repositories {
 
 dependencies {
     compileOnly("org.purpurmc.purpur:purpur-api:1.19.4-R0.1-SNAPSHOT")
-    compileOnly("com.ghostchu:quickshop-api:6.0.0.0")
+    compileOnly("com.ghostchu:quickshop-api:6.0.0.6")
     compileOnly(files("libs/AreaShop-2.7.17.jar"))
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.9")
 
-    implementation("com.ghostchu.quickshop.compatibility:common:5.2.0.10")
+    implementation("com.ghostchu.quickshop.compatibility:common:6.0.0.6")
 }
 
 tasks.shadowJar {
