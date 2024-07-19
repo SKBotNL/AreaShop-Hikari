@@ -42,7 +42,7 @@ dependencies {
     compileOnly(files("libs/AreaShop-2.7.17.jar"))
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.10")
 
-    implementation("com.ghostchu.quickshop.compatibility:common:6.2.0.5")
+    implementation("com.ghostchu.quickshop.compatibility:common:6.2.0.6")
 }
 
 tasks.shadowJar {
