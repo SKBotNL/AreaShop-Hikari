@@ -47,7 +47,7 @@ repositories {
 
 dependencies {
     compileOnly("org.purpurmc.purpur:purpur-api:1.19.4-R0.1-SNAPSHOT")
-    compileOnly("com.ghostchu:quickshop-api:5.2.0.7")
+    compileOnly("com.ghostchu:quickshop-api:6.2.0.6")
     compileOnly(files("libs/AreaShop-2.9.1.jar"))
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.8")
     implementation("com.ghostchu.quickshop.compatibility:common:5.2.0.7")
