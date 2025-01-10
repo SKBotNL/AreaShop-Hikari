@@ -3,4 +3,4 @@ version: '${version}'
 main: Main
 author: SKBotNL
 api-version: '${apiVersion}'
-depend: [ AreaShop, QuickShop-Hikari ]
+depend: [ AreaShop, QuickShop-OG ]
