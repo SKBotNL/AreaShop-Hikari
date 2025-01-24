@@ -50,7 +50,7 @@ dependencies {
     compileOnly("com.ghostchu:quickshop-api:5.2.0.7")
     compileOnly(files("libs/AreaShop-2.9.1.jar"))
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.8")
-    implementation("com.ghostchu.quickshop.compatibility:common:5.2.0.7")
+    implementation("com.ghostchu.quickshop.compatibility:common:6.2.0.8")
 }
 
 tasks.withType<AbstractArchiveTask>().configureEach { // Ensure reproducible builds.
