@@ -1,8 +1,8 @@
 plugins {
-    id("com.gradleup.shadow") version "8.3.2" // Import shadow API.
+    id("com.gradleup.shadow") version "8.3.5" // Import shadow API.
     java // Tell gradle this is a java project.
     eclipse // Import eclipse plugin for IDE integration.
-    kotlin("jvm") version "2.0.21" // Import kotlin jvm plugin for kotlin/java integration.
+    kotlin("jvm") version "2.1.21" // Import kotlin jvm plugin for kotlin/java integration.
 }
 
 java {
@@ -10,8 +10,8 @@ java {
     sourceCompatibility = JavaVersion.VERSION_17
 }
 
-group = "nl.skbotnl.areashop-hikari" // Declare bundle identifier.
-version = "1.1.4" // Declare plugin version (will be in .jar).
+group = "nl.skbotnl.shopbridge-og" // Declare bundle identifier.
+version = "1.1.5" // Declare plugin version (will be in .jar).
 val apiVersion = "1.19" // Declare minecraft server target version.
 
 tasks.named<ProcessResources>("processResources") {
