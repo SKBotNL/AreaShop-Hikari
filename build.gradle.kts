@@ -2,7 +2,7 @@ import java.io.BufferedReader
 
 plugins {
     kotlin("jvm") version "2.1.21"
-    id("com.gradleup.shadow") version "8.3.2"
+    id("com.gradleup.shadow") version "8.3.6"
     eclipse
 }
 
